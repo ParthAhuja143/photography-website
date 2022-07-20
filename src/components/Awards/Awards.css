@@ -1,0 +1,73 @@
+.awards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position-x: center;
+  background-position-y: 0px;
+  background-attachment: fixed;
+  height: 550px;
+  padding: 50px 20px;
+  background-image: url("https://1uzu0p2w64m94n0xh1n9hpiq-wpengine.netdna-ssl.com/photographer/wp-content/uploads/sites/2/2017/06/home-bg.jpg");
+}
+
+.awards_overlay {
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.awards_awards {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.awards_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin: 30px 10px;
+}
+
+.awards_title {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 25px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .awards_title {
+    margin-bottom: 0px;
+  }
+}
+
+.awards_types {
+  text-align: center;
+  color: white;
+  width: 270px;
+  margin: 0px 10px;
+  font-size: 15px;
+}
+
+.awards_types h1 {
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.awards_types h3 {
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}

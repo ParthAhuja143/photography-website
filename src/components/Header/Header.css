@@ -1,0 +1,57 @@
+.header_background {
+  height: auto;
+  background-image: url("https://cdn0.weddingwire.in/articles/images/1/4/4/6/img_66441/t30_week-before-wedding-artist-navin-ahmed-lead-image-pre-wedding-shoot-bride-and-groom-jpg.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.header_overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 800px;
+  width: 100%;
+}
+
+.header_slogan {
+  position: absolute;
+  color: white;
+  top: 140px;
+  width: 100%;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  letter-spacing: 12px;
+  text-align: center;
+}
+
+.header_logo {
+  position: absolute;
+  top: 260px;
+  text-align: center;
+  width: 100%;
+  font-size: 12vw;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 17px;
+}
+
+.header_outline {
+  position: absolute;
+  top: 260px;
+  text-align: center;
+  width: 100%;
+  font-size: 14vw;
+  color: transparent;
+  letter-spacing: 10px;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+}
+
+@media only screen and (max-width: 370px) {
+  .header_outline {
+    letter-spacing: 5px;
+  }
+
+  .header_logo {
+    letter-spacing: 8px;
+  }
+}
